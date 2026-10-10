@@ -1,3 +1,119 @@
+
+# Uni Tech Healthcare Website 🏥
+
+A modern, responsive healthcare solution website built for **Uni Tech**, a diagnostic equipment and laboratory solution provider in Bangladesh.
+
+The website presents healthcare products, company information, services, partners, quality commitment, and contact solutions through a clean and professional user interface.
+
+---
+
+## 🚀 Live Preview
+
+(Add your deployed website link here)
+
+---
+
+## 📌 Project Overview
+
+Uni Tech Healthcare Website is a corporate website designed to showcase:
+
+- Diagnostic equipment solutions
+- Laboratory analyzers
+- Medical reagents
+- Healthcare services
+- Company profile and capabilities
+- Partnership information
+- Customer inquiry solutions
+
+The main goal of this project is to provide a trustworthy digital presence for a healthcare technology company.
+
+---
+
+## ✨ Features
+
+### 🏠 Home Page
+
+- Modern healthcare-focused hero section
+- Company introduction
+- Product categories showcase
+- Service overview
+- Partner section
+- Quality commitment section
+- Contact inquiry section
+
+
+### 🏢 About Us Page
+
+- Company overview
+- Mission & Vision
+- Core strengths
+- Healthcare commitment
+- Professional CTA sections
+
+
+### 🧪 Product Showcase
+
+Featured healthcare products:
+
+- Erba H360 Hematology Analyzer
+- Erba CHEM 5X Clinical Chemistry Analyzer
+- Erba XL180 Clinical Chemistry Analyzer
+- Diestro Electrolyte Analyzer
+- DIALAB Diagnostic Reagents
+- Erba Diagnostic Reagents
+
+
+### 📞 Contact System
+
+- Contact information display
+- Quote request section
+- Easy navigation for healthcare clients
+
+
+### 📱 Responsive Design
+
+Fully responsive across:
+
+- Desktop
+- Tablet
+- Mobile devices
+
+
+### 🔗 Smooth Navigation
+
+- Section-based navigation
+- Cross-page anchor support
+- Fixed responsive navbar
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- Astro
+- HTML5
+- Tailwind CSS
+- JavaScript
+
+
+### Tools
+
+- VS Code
+- Git
+- GitHub
+- npm
+
+
+---
+
+## 📂 Project Structure
+
+
+
+
+
+
 # Astro Starter Kit: Minimal
 
 ```sh
