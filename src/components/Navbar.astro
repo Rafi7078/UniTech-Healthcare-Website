@@ -11,9 +11,6 @@
 		<div class="flex items-center justify-between h-20">
 
 
-
-
-
 			<!-- Logo -->
 
 			<a 
@@ -22,10 +19,11 @@
 			>
 
 				<img
-					src="/images/unitech-logo.webp"
+					src="/images/unitech-logo-new.png"
 					alt="Uni Tech"
 					class="
 					h-12
+					sm:h-14
 					w-auto
 					object-contain"
 				/>
@@ -33,74 +31,49 @@
 			</a>
 
 
-
-
-
-
-
 			<!-- Desktop Menu -->
 
 			<div class="hidden md:flex items-center gap-8">
 
 
-				<a 
-					href="/#home"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#home"
+				class="text-slate-600 hover:text-green-700 transition">
 					Home
 				</a>
 
 
-
-				<a 
-					href="/#about"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#about"
+				class="text-slate-600 hover:text-green-700 transition">
 					About Us
 				</a>
 
 
-
-				<a 
-					href="/#products"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#products"
+				class="text-slate-600 hover:text-green-700 transition">
 					Products
 				</a>
 
 
-
-				<a 
-					href="/#services"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#services"
+				class="text-slate-600 hover:text-green-700 transition">
 					Services
 				</a>
 
 
-
-				<a 
-					href="/#partners"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#partners"
+				class="text-slate-600 hover:text-green-700 transition">
 					Partners
 				</a>
 
 
-
-				<a 
-					href="/#quality"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#quality"
+				class="text-slate-600 hover:text-green-700 transition">
 					Quality
 				</a>
 
 
-
-				<a 
-					href="/#contact"
-					class="text-slate-600 hover:text-green-700 transition"
-				>
+				<a href="/#contact"
+				class="text-slate-600 hover:text-green-700 transition">
 					Contact
 				</a>
 
@@ -109,13 +82,7 @@
 
 
 
-
-
-
-
-
-			<!-- CTA Button -->
-
+			<!-- CTA -->
 
 			<a
 				href="/#contact"
@@ -131,50 +98,25 @@
 				hover:bg-green-800
 				transition"
 			>
-
 				Request Quote
-
 			</a>
 
 
 
-
-
-
-
-
-
 			<!-- Mobile Button -->
-
 
 			<button
 				id="menuBtn"
 				class="
 				md:hidden
 				text-2xl
-				text-slate-700
-				focus:outline-none"
+				text-slate-700"
 			>
-
 				☰
-
 			</button>
 
 
-
-
-
 		</div>
-
-
-
-
-
-
-
-
-
-		<!-- Mobile Menu -->
 
 
 		<div
@@ -188,94 +130,36 @@
 		>
 
 
-
-			<a 
-				href="/#home"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#home" class="block text-slate-700">
 				Home
 			</a>
 
-
-
-			<a 
-				href="/#about"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#about" class="block text-slate-700">
 				About Us
 			</a>
 
-
-
-			<a 
-				href="/#products"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#products" class="block text-slate-700">
 				Products
 			</a>
 
-
-
-			<a 
-				href="/#services"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#services" class="block text-slate-700">
 				Services
 			</a>
 
-
-
-			<a 
-				href="/#partners"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#partners" class="block text-slate-700">
 				Partners
 			</a>
 
-
-
-			<a 
-				href="/#quality"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#quality" class="block text-slate-700">
 				Quality
 			</a>
 
-
-
-			<a 
-				href="/#contact"
-				class="
-				block
-				text-slate-700
-				hover:text-green-700"
-			>
+			<a href="/#contact" class="block text-slate-700">
 				Contact
 			</a>
 
 
-
-
 		</div>
-
 
 
 	</div>
@@ -285,37 +169,31 @@
 
 
 
-
-
-
 <script is:inline>
 
-	const btn = document.getElementById("menuBtn");
+const btn = document.getElementById("menuBtn");
 
-	const menu = document.getElementById("mobileMenu");
-
-
-	btn?.addEventListener("click", () => {
-
-		menu?.classList.toggle("hidden");
-
-	});
+const menu = document.getElementById("mobileMenu");
 
 
+btn?.addEventListener("click",()=>{
 
-	// Mobile menu close after click
+	menu?.classList.toggle("hidden");
 
-	document
-	.querySelectorAll("#mobileMenu a")
-	.forEach((link)=>{
+});
 
-		link.addEventListener("click",()=>{
 
-			menu?.classList.add("hidden");
+document
+.querySelectorAll("#mobileMenu a")
+.forEach((link)=>{
 
-		});
+	link.addEventListener("click",()=>{
+
+		menu?.classList.add("hidden");
 
 	});
+
+});
 
 
 </script>
