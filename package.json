@@ -2,21 +2,27 @@
   "name": "unitech-website",
   "type": "module",
   "version": "0.0.1",
+
   "engines": {
     "node": ">=22.12.0"
   },
+
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "start": "node server.js"
   },
+
   "dependencies": {
     "@lucide/astro": "^1.54.0",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.7",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.3",
+    "express": "^5.1.0"
   },
+
   "allowScripts": {
     "esbuild": true
   }
